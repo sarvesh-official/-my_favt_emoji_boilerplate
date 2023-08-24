@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFE0;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.emoji-face{
+    width: 100px;
+    height: 100px;
+    background-color: #F2DD68;
+    margin: 20px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.eye1{
+    height: 11px;
+    width: 13px;
+    left: 25px;
+    top: 30px;
+    border-radius: 50px;
+    position:absolute;
+    background-color:#995710;
+}
+
+.eye2 {
+    height: 11px;
+    width: 13px;
+    right: 25px;
+    top: 30px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #995710;
+}
+
+.mouth{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 20px;
+    background-color: #995710;
+    top: 60px;
+    border-radius: 0px 0px 40px 40px;
+    overflow: hidden;
+}
+
+.tongue{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top: 20px;
+    left: 10px;
+    background-color: #E25D5D;
+    border-radius: 40px 40px 0px 0px;
+    
+    }
+
+    .mouth-shock{
+        position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 40px;
+            background-color: #995710;
+            top: 60px;
+            border-radius: 15px ;
+            overflow: hidden;
+    }
+
+.mouth-speechless{
+    position: absolute;
+        width: 60px;
+        height: 5px;
+        left: 20px;
+        background-color: #995710;
+        top: 60px;
+        overflow: hidden;
+}
+
+.emoji-face{
+        float: left;
+}
+.write-up{
+    position:absolute;
+    text-align: center;
+    width: 50%;
+    left: 450px;
+    top: 300px;
+    background-color: #D8AA2B;
+    border-radius: 10px;
+}
+
+.wrapper{
+    width: 450px;
+    margin: 0px auto;
+}
+
+p{
+    padding: 40px;
+    text-align: center;
+}
+
+.emoji-face:hover{
+    width: 120px;
+    height: 120px;
+    background-color: #00b7ff;
+    margin: 20px;
+    border-radius: 50%;
+    position: relative;
+}
+
+
