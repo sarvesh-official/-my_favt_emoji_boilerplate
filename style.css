@@ -27,6 +27,7 @@ h1{
     border-radius: 50px;
     position:absolute;
     background-color:#995710;
+    animation: wink 2s infinite
 }
 
 .eye2 {
@@ -37,6 +38,7 @@ h1{
     border-radius: 50px;
     position: absolute;
     background-color: #995710;
+    animation: wink 2s infinite
 }
 
 .mouth{
@@ -48,6 +50,7 @@ h1{
     top: 60px;
     border-radius: 0px 0px 40px 40px;
     overflow: hidden;
+    animation: moveMouth 2s infinite
 }
 
 .tongue{
@@ -70,6 +73,7 @@ h1{
             top: 60px;
             border-radius: 15px ;
             overflow: hidden;
+            animation: moveMouth 2s infinite
     }
 
 .mouth-speechless{
@@ -80,6 +84,7 @@ h1{
         background-color: #995710;
         top: 60px;
         overflow: hidden;
+        animation: moveMouth 2s infinite
 }
 
 .emoji-face{
@@ -112,6 +117,29 @@ p{
     margin: 20px;
     border-radius: 50%;
     position: relative;
+}
+@keyframes wink {
+
+    0%,
+    100% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(0);
+    }
+}
+
+@keyframes moveMouth {
+
+    0%,
+    100% {
+        top: 60px;
+    }
+
+    50% {
+        top: 65px;
+    }
 }
 
 
